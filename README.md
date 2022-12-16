@@ -1,17 +1,3 @@
-This is my portfolio
+This is the code to my portfolio website that I will try to build.
 
-This is a test for changes
-
-This is test number 2 to see how GitHub syncing works
-
-So just use GitHub desktop
-
-This is a test from my laptop
-
-Testing pulling from my laptop
-
-Last test
-
-Testing
-
-Lets do it
+12/16/22 - I do not know much about HTML/CSS, but I will attempt to learn it myself and build a website to show off my other projects
