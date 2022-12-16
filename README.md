@@ -7,3 +7,5 @@ This is test number 2 to see how GitHub syncing works
 So just use GitHub desktop
 
 This is a test from my laptop
+
+Testing pulling from my laptop
