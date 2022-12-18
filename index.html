@@ -4,72 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Aidan Carter ~ Portfolio</title>
 </head>
 
 <body>
 
-    <header>
-        <div name="title">
-            <h1>Aidan Carter</h1>
-            <h2>Computer Science Portfolio</h2>
+    <div class="nav">
+        <h1>Aidan Carter</h1>        
+        <div class="links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT ME</a>
+            <a href="#portfolio">COMPUTER SCIENCE PORTFOLIO</a>
+            <a href="#other">OTHER PROJECTS</a>
+            <a href="#resume">RESUME</a>
+            <a href="#contact">CONTACT ME</a>
         </div>
-        <div name="links">
-            <ul>
-                <li>
-                    <a href=".">Home</a>
-                </li>
-                <li>
-                    <a href="./about.html">About Me</a>
-                </li>
-                <li>
-                    <a href="./portfolio.html">Computer Science Portfolio</a>
-                </li>
-                <li>
-                    <a href="./resume.html">Resume</a>
-                </li>
-                <li>
-                    <a href="./other.html">Other Projects</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
-    <div name="home">
-        <h1>This is the home page. Idk what I will be doing yet for it so here is a picture of a dog.</h1>
-        <img src="https://imgs.search.brave.com/6NblBe1yTV5UtXpQeDoo-30OP3vdNpCt0Ant4nOr5H4/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMxLnRoZXJpY2hl/c3RpbWFnZXMuY29t/L3dvcmRwcmVzcy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNS8w/Mi9zaHV0dGVyc3Rv/Y2tfQ3V0ZS1Eb2cu/anBn" width="600" height="400" alt="Image of a dog as placeholder">
     </div>
 
-    <div name="resume">
-        <h1>Resume</h1>
-        <p>Please <a href="https://drive.google.com/file/d/1BLiseusQWQh7aphZhPQl3Ue7MwgEZdMC/view?usp=share_link">click here</a> if you would like to download a copy of my resume.</p>
-        <img src="./resume.png" width="800" height="1000" alt="Resume">
-    </div>
+    <div class="content_wrapper">
 
-    <footer>
-        <div name="social_media">
-            <h1>Social Media</h1>
-            <ul>
-                <li>
-                    <a href="https://github.com/stubbornmarlin3">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/carter.aidan129/">Instagram</a>
-                </li>
-            </ul>
+        <div class="wrapper_white" id="home">
+            <div class="content">
+                <h1>This is the home page. Idk what I will be doing yet for it so here is a picture of a dog.</h1>
+                <img src="https://imgs.search.brave.com/6NblBe1yTV5UtXpQeDoo-30OP3vdNpCt0Ant4nOr5H4/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMxLnRoZXJpY2hl/c3RpbWFnZXMuY29t/L3dvcmRwcmVzcy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNS8w/Mi9zaHV0dGVyc3Rv/Y2tfQ3V0ZS1Eb2cu/anBn" width="600" height="400" alt="Image of a dog as placeholder">
+            </div>
         </div>
-        <div name="contact_info">
-            <h1>Contact Info</h1>
-            <ul>
-                <li>
-                    <a href="mailto:arcarter129@gmail.com">arcarter129@gmail.com</a>
-                </li>
-                <li>
-                    <a href="tel:2192529113">(219)252-9113</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
     
+        <div class="wrapper_white" id="about">
+            <div class="content">
+                <h1>About Me</h1>
+                <p>I am Aidan Carter. I am a Computer Science student currently trying to figure out HTML and CSS so I can make this website. I have very little idea what I am currently doing but trying to learn on Codecademy. <br> I should have taken a web dev course at school, because right now I really only know python and C. I definitly need to take some more courses and branch out in the field. <br> I want to eventually be able to do web dev, software dev, and data science. </p>
+            </div>
+        </div>
+    
+        <div class="wrapper_blue" id="portfolio">
+            <div class="content">
+                <h1>CS Portfolio</h1>
+                <p>Here I will put all my projects that pertian to CS only. This will be either stuff I have made for class or just in my free time to show off skills.</p>
+            </div>
+        </div>
+    
+        <div class="wrapper_white" id="other">
+            <div class="content">
+                <h1>Other Projects</h1>
+                <p>Here I will put my other projects that I have made. This will include my skateboard and eventually my smart mirror. This will show skills that I have besides stuff I have learned in CS like experience with hardware and implementation of software.</p>
+            </div>
+        </div>
+    
+        <div class="wrapper_blue" id="resume">
+            <div class="content">
+                <h1>Resume</h1>
+                <p>Please <a href="https://drive.google.com/file/d/1BLiseusQWQh7aphZhPQl3Ue7MwgEZdMC/view?usp=share_link">click here</a> if you would like to download a copy of my resume. <b> Definitly need to update this!!</b></p>
+                <img src="./resume.png" width="800" height="1000" alt="Resume">
+            </div>
+        </div>
+    
+        <div class="wrapper_white" id="contact">
+            <div class="content">
+                <div id="social_media">
+                    <h1>Social Media</h1>
+                    <div class="links">
+                        <a href="https://github.com/stubbornmarlin3">
+                            <img src="https://imgs.search.brave.com/ij3t5KLpcnSaGFABUAAdPh9IARp5fsbQSBZBRQC7UWE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9sb2dv/cy1kb3dubG9hZC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTYvMDkvR2l0SHVi/X2xvZ28ucG5n" width="100" height="100" alt="GitHub">
+                        </a>
+                        <a href="https://www.instagram.com/carter.aidan129/">
+                            <img src="https://imgs.search.brave.com/BdnLnaHy4UUkM02IwNqwuRqJibf_XlD4rPr-g7hkndY/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9lL2U3L0lu/c3RhZ3JhbV9sb2dv/XzIwMTYuc3ZnLzEy/MDBweC1JbnN0YWdy/YW1fbG9nb18yMDE2/LnN2Zy5wbmc" width="100" height="100" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+
+                <div id="contact_info">
+                    <h1>Contact Info</h1>
+                    <div class="links">
+                        <a href="mailto:arcarter129@gmail.com">arcarter129@gmail.com</a>
+                        <a href="tel:2192529113">(219)252-9113</a>
+                    </div>  
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
