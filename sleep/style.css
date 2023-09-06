@@ -1,0 +1,57 @@
+/* Colors
+    Dark: #05386b
+    Dark Accent: #379683
+    Background: #5cdb95
+    Light Accent: #8ee4af
+    Light: #edf5e1
+*/
+
+* {
+    /* border:1px solid red; */
+    scroll-behavior:smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #5cdb95;
+    color: #edf5e1;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: #379683;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.links {
+    margin: auto auto 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    margin: 10px auto;
+    background-color: #05386b;
+    color: #edf5e1;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.about {
+    margin: auto 20px auto;
+}
+
+.about p, .about li{
+    text-align: left;
+}
+
+.about i {
+    font-size: 11px;
+}
